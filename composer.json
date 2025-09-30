@@ -1,0 +1,18 @@
+{
+    "name": "veracode/vulnerable-php-app",
+    "description": "PHP application with intentional vulnerabilities for Veracode scanning",
+    "require": {
+        "monolog/monolog": "1.26.0",
+        "guzzlehttp/guzzle": "6.5.0",
+        "symfony/symfony": "3.4.49",
+        "twig/twig": "2.13.1",
+        "doctrine/orm": "2.7.0",
+        "doctrine/dbal": "2.12.1",
+        "vlucas/phpdotenv": "2.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VulnerableApp\\": "src/"
+        }
+    }
+}
